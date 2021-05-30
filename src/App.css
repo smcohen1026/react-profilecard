@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background-color: purple;
+}
+
+.container {
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  padding-bottom: 110px;
+  border-right: 75px;
+  background-color: violet;
+}
+
+.picture {
+ width: 600%;
+ padding-top: 40px;
+ margin-left: 40px;
+ justify-content: center;
+ background-color: whitesmoke;
+}
+img {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px dotted pink;
+  border-color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  padding: 10px;
+  
+  margin-top: 30px;
+}
+
+h2, #bio {
+  text-align: center;
+}
+#bio {
+  font-size: 1.4em;
+}
+.myButton {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+  color: black;
+  background: gainsboro;
+  padding: 20px 40px;
+  border: 0;
+  font-size: 1.2em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+likes {
+  width: 100%;
+  padding-left: 1200px;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+  
+span {
+  color: black;
+  padding-left: 270px;
+  font-size: 2.0em;
+    }
+    
+  .icon {
+    font-size: 2.0em;
+    margin: 10px;
+  }
+  
+  .footer {
+    display:flex;
+    margin: 10%;
+    justify-content: center;
+}
+
+.myIcon {
+  margin: 0%;
+  padding-left: 0px;
+}
+
+.a {
+  color:black;
+}
+
+.section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;   
+}
+
+@media only screen and (max-width: 271px) {
+  .myButton {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  button {
+      width: 90%;
+      background:blue;
+  }
+  
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  section {
+      width: 100%;
+      background:linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+  }
+  #image1 {
+      width: 70%;
+      border-radius: 50%;
+  }
+  button {
+      padding: 10px 20px;
+  }
+ }
